@@ -1,0 +1,5 @@
+Step 1: git init : Khởi tạo repo dưới local (máy tính của bạn).
+Step 2: git checkout -b developer : Tạo nhánh mới có tên developer.
+Step 3: commit code
+-> git add fileName: add từng file
+-> git add . -> add tất cả các file
