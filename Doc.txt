@@ -3,3 +3,16 @@ Step 2: git checkout -b developer : Tạo nhánh mới có tên developer.
 Step 3: commit code
 -> git add fileName: add từng file
 -> git add . -> add tất cả các file
+-> git commit -m"Message"
+Step 4: add remote
+-> git remote add origin https://github.com/ThaiXuanHien/LearnGit.git
+Step 5: push code
+-> git push origin
+-------------------------------
+-> git branch -d tên_nhánh -> xóa 1 nhánh
+-> git checkout -b tên_nhanh -> tạo mới 1 nhánh và chuyển sang nhánh đó
+-> git branch -> xem danh sách nhánh
+-> git checkout tên_nhánh -> chuyển nhánh
+-> git push origin tên_nhánh -> đẩy code lên nhánh (origin là tên remote mà chúng ta đặt)
+-> git remote add tên_remote link_repo -> thêm mới 1 remote
+-> git pull origin  tên_nhánh -> kéo code mới nhất của nhánh đó về local
